@@ -11,9 +11,9 @@ main{
     font-family: 'Poppins', sans-serif;
     margin: 50px 140px 50px 140px;
 }
-/* ----------------------------
-        banner section 
--------------------------------*/
+/* -----------------------------------------------------------------
+                                banner section 
+-----------------------------------------------------------------------*/
 .banner-section{
     width: 100%;
     height: 100%;
@@ -64,9 +64,9 @@ color: white;
     font-family: Poppins;
     cursor: pointer;
 }
-/*----------------------------------
-            Blog Section 
------------------------------------*/
+/*---------------------------------------------------------------------------------
+                                    Blog Section 
+-----------------------------------------------------------------------------------*/
 .blog-section{
     display: flex;
     margin-top: 130px;
@@ -88,6 +88,20 @@ color: white;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+    border: 0;
+}
+#first-btn a{
+    text-decoration: none;
+    color: #161616;
+}
+#first-btn a:hover{
+    color: white;
+}
+#first-btn:hover{
+    color: white;
+    background-image:linear-gradient(45deg,red,blue) ;
+    transition: 0.5s;
+    border: 0;
 }
 #blog-btn{
     background-color: red;
@@ -118,12 +132,15 @@ color: white;
 .blog-description{
     margin: 0 20px;
 }
+.blog-description p{
+    text-align: left;
+}
 .blog-description button{
     width: 100px;
     height: 32px;
     font-size: 16px;
     font-weight: 500;
-    margin: 24px 0 15px 0;
+    margin: 16px 0 0 0;
     border: 1px solid #161616;
     border-radius: 5px;
     background-color: white;
@@ -144,13 +161,14 @@ color: white;
 .fa-message{
     margin: 0px 10px;
 }
-/* --------------------------------
-            Footer Section
------------------------------------ */
+/* ------------------------------------------------------------------------
+                                Footer Section
+--------------------------------------------------------------------------- */
 .footer{
     background-color: #161616;
     height: 444px;
     width: 100%;
+    margin-top: 130px;
 }
 .footer h2{
     text-align: center;
@@ -176,4 +194,39 @@ color: white;
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+/* -------------------------------------------------------------------------
+                                Match Page
+---------------------------------------------------------------------------*/
+.match{
+    width: 312px;
+    height: 170px;
+    padding: 53px 0;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+}
+.match h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.match p{
+    color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.match h2,p{
+    text-align: center;
+    margin: 10px 0px;
+}
+.flags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flags img{
+    margin: 0px 20px 10px 20px;
+}
+.flags span{
+    font-size: 16px;
+    font-weight: 700;
 }
